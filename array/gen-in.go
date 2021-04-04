@@ -5,10 +5,6 @@
 package array
 
 // Float32In 搜索数组中是否存在指定的值。
-// @param search float32 要索索的值
-// @param slice []Float32 要搜索的数组
-// @return  bool 是否存在
-// @date 2021-03-15 03:35:25
 func Float32In(search float32, slice []float32) bool {
 	for _, v := range slice {
 		if v == search {
@@ -19,10 +15,6 @@ func Float32In(search float32, slice []float32) bool {
 }
 
 // Float64In 搜索数组中是否存在指定的值。
-// @param search float64 要索索的值
-// @param slice []Float64 要搜索的数组
-// @return  bool 是否存在
-// @date 2021-03-15 03:35:25
 func Float64In(search float64, slice []float64) bool {
 	for _, v := range slice {
 		if v == search {
@@ -33,10 +25,6 @@ func Float64In(search float64, slice []float64) bool {
 }
 
 // IntIn 搜索数组中是否存在指定的值。
-// @param search int 要索索的值
-// @param slice []Int 要搜索的数组
-// @return  bool 是否存在
-// @date 2021-03-15 03:35:25
 func IntIn(search int, slice []int) bool {
 	for _, v := range slice {
 		if v == search {
@@ -47,10 +35,6 @@ func IntIn(search int, slice []int) bool {
 }
 
 // Int16In 搜索数组中是否存在指定的值。
-// @param search int16 要索索的值
-// @param slice []Int16 要搜索的数组
-// @return  bool 是否存在
-// @date 2021-03-15 03:35:25
 func Int16In(search int16, slice []int16) bool {
 	for _, v := range slice {
 		if v == search {
@@ -61,10 +45,6 @@ func Int16In(search int16, slice []int16) bool {
 }
 
 // Int32In 搜索数组中是否存在指定的值。
-// @param search int32 要索索的值
-// @param slice []Int32 要搜索的数组
-// @return  bool 是否存在
-// @date 2021-03-15 03:35:25
 func Int32In(search int32, slice []int32) bool {
 	for _, v := range slice {
 		if v == search {
@@ -75,10 +55,6 @@ func Int32In(search int32, slice []int32) bool {
 }
 
 // Int64In 搜索数组中是否存在指定的值。
-// @param search int64 要索索的值
-// @param slice []Int64 要搜索的数组
-// @return  bool 是否存在
-// @date 2021-03-15 03:35:25
 func Int64In(search int64, slice []int64) bool {
 	for _, v := range slice {
 		if v == search {
@@ -89,10 +65,6 @@ func Int64In(search int64, slice []int64) bool {
 }
 
 // Int8In 搜索数组中是否存在指定的值。
-// @param search int8 要索索的值
-// @param slice []Int8 要搜索的数组
-// @return  bool 是否存在
-// @date 2021-03-15 03:35:25
 func Int8In(search int8, slice []int8) bool {
 	for _, v := range slice {
 		if v == search {
@@ -103,10 +75,6 @@ func Int8In(search int8, slice []int8) bool {
 }
 
 // UintIn 搜索数组中是否存在指定的值。
-// @param search uint 要索索的值
-// @param slice []Uint 要搜索的数组
-// @return  bool 是否存在
-// @date 2021-03-15 03:35:25
 func UintIn(search uint, slice []uint) bool {
 	for _, v := range slice {
 		if v == search {
@@ -117,10 +85,6 @@ func UintIn(search uint, slice []uint) bool {
 }
 
 // Uint16In 搜索数组中是否存在指定的值。
-// @param search uint16 要索索的值
-// @param slice []Uint16 要搜索的数组
-// @return  bool 是否存在
-// @date 2021-03-15 03:35:25
 func Uint16In(search uint16, slice []uint16) bool {
 	for _, v := range slice {
 		if v == search {
@@ -131,10 +95,6 @@ func Uint16In(search uint16, slice []uint16) bool {
 }
 
 // Uint32In 搜索数组中是否存在指定的值。
-// @param search uint32 要索索的值
-// @param slice []Uint32 要搜索的数组
-// @return  bool 是否存在
-// @date 2021-03-15 03:35:25
 func Uint32In(search uint32, slice []uint32) bool {
 	for _, v := range slice {
 		if v == search {
@@ -145,10 +105,6 @@ func Uint32In(search uint32, slice []uint32) bool {
 }
 
 // Uint64In 搜索数组中是否存在指定的值。
-// @param search uint64 要索索的值
-// @param slice []Uint64 要搜索的数组
-// @return  bool 是否存在
-// @date 2021-03-15 03:35:25
 func Uint64In(search uint64, slice []uint64) bool {
 	for _, v := range slice {
 		if v == search {
@@ -159,10 +115,6 @@ func Uint64In(search uint64, slice []uint64) bool {
 }
 
 // Uint8In 搜索数组中是否存在指定的值。
-// @param search uint8 要索索的值
-// @param slice []Uint8 要搜索的数组
-// @return  bool 是否存在
-// @date 2021-03-15 03:35:25
 func Uint8In(search uint8, slice []uint8) bool {
 	for _, v := range slice {
 		if v == search {
@@ -173,10 +125,6 @@ func Uint8In(search uint8, slice []uint8) bool {
 }
 
 // StringIn 搜索数组中是否存在指定的值。
-// @param search string 要索索的值
-// @param slice []String 要搜索的数组
-// @return  bool 是否存在
-// @date 2021-03-15 03:35:25
 func StringIn(search string, slice []string) bool {
 	for _, v := range slice {
 		if v == search {

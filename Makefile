@@ -3,3 +3,6 @@ GOPATH:=$(shell go env GOPATH)
 gen:
 	go generate ./...
 
+.PHONY: test
+test:
+	go test ./test/...

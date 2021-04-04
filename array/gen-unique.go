@@ -5,9 +5,6 @@
 package array
 
 // Float32Unique 函数用于移除数组中重复的值
-// @param slice []Float32 规定数组
-// @return value []Float32 唯一数组
-// @date 2021-03-15 03:46:38
 func Float32Unique(slice []float32) (value []float32) {
 	for _, v := range slice {
 		if !Float32In(v, value) {
@@ -18,9 +15,6 @@ func Float32Unique(slice []float32) (value []float32) {
 }
 
 // Float64Unique 函数用于移除数组中重复的值
-// @param slice []Float64 规定数组
-// @return value []Float64 唯一数组
-// @date 2021-03-15 03:46:38
 func Float64Unique(slice []float64) (value []float64) {
 	for _, v := range slice {
 		if !Float64In(v, value) {
@@ -31,9 +25,6 @@ func Float64Unique(slice []float64) (value []float64) {
 }
 
 // IntUnique 函数用于移除数组中重复的值
-// @param slice []Int 规定数组
-// @return value []Int 唯一数组
-// @date 2021-03-15 03:46:38
 func IntUnique(slice []int) (value []int) {
 	for _, v := range slice {
 		if !IntIn(v, value) {
@@ -44,9 +35,6 @@ func IntUnique(slice []int) (value []int) {
 }
 
 // Int16Unique 函数用于移除数组中重复的值
-// @param slice []Int16 规定数组
-// @return value []Int16 唯一数组
-// @date 2021-03-15 03:46:38
 func Int16Unique(slice []int16) (value []int16) {
 	for _, v := range slice {
 		if !Int16In(v, value) {
@@ -57,9 +45,6 @@ func Int16Unique(slice []int16) (value []int16) {
 }
 
 // Int32Unique 函数用于移除数组中重复的值
-// @param slice []Int32 规定数组
-// @return value []Int32 唯一数组
-// @date 2021-03-15 03:46:38
 func Int32Unique(slice []int32) (value []int32) {
 	for _, v := range slice {
 		if !Int32In(v, value) {
@@ -70,9 +55,6 @@ func Int32Unique(slice []int32) (value []int32) {
 }
 
 // Int64Unique 函数用于移除数组中重复的值
-// @param slice []Int64 规定数组
-// @return value []Int64 唯一数组
-// @date 2021-03-15 03:46:38
 func Int64Unique(slice []int64) (value []int64) {
 	for _, v := range slice {
 		if !Int64In(v, value) {
@@ -83,9 +65,6 @@ func Int64Unique(slice []int64) (value []int64) {
 }
 
 // Int8Unique 函数用于移除数组中重复的值
-// @param slice []Int8 规定数组
-// @return value []Int8 唯一数组
-// @date 2021-03-15 03:46:38
 func Int8Unique(slice []int8) (value []int8) {
 	for _, v := range slice {
 		if !Int8In(v, value) {
@@ -96,9 +75,6 @@ func Int8Unique(slice []int8) (value []int8) {
 }
 
 // UintUnique 函数用于移除数组中重复的值
-// @param slice []Uint 规定数组
-// @return value []Uint 唯一数组
-// @date 2021-03-15 03:46:38
 func UintUnique(slice []uint) (value []uint) {
 	for _, v := range slice {
 		if !UintIn(v, value) {
@@ -109,9 +85,6 @@ func UintUnique(slice []uint) (value []uint) {
 }
 
 // Uint16Unique 函数用于移除数组中重复的值
-// @param slice []Uint16 规定数组
-// @return value []Uint16 唯一数组
-// @date 2021-03-15 03:46:38
 func Uint16Unique(slice []uint16) (value []uint16) {
 	for _, v := range slice {
 		if !Uint16In(v, value) {
@@ -122,9 +95,6 @@ func Uint16Unique(slice []uint16) (value []uint16) {
 }
 
 // Uint32Unique 函数用于移除数组中重复的值
-// @param slice []Uint32 规定数组
-// @return value []Uint32 唯一数组
-// @date 2021-03-15 03:46:38
 func Uint32Unique(slice []uint32) (value []uint32) {
 	for _, v := range slice {
 		if !Uint32In(v, value) {
@@ -135,9 +105,6 @@ func Uint32Unique(slice []uint32) (value []uint32) {
 }
 
 // Uint64Unique 函数用于移除数组中重复的值
-// @param slice []Uint64 规定数组
-// @return value []Uint64 唯一数组
-// @date 2021-03-15 03:46:38
 func Uint64Unique(slice []uint64) (value []uint64) {
 	for _, v := range slice {
 		if !Uint64In(v, value) {
@@ -148,9 +115,6 @@ func Uint64Unique(slice []uint64) (value []uint64) {
 }
 
 // Uint8Unique 函数用于移除数组中重复的值
-// @param slice []Uint8 规定数组
-// @return value []Uint8 唯一数组
-// @date 2021-03-15 03:46:38
 func Uint8Unique(slice []uint8) (value []uint8) {
 	for _, v := range slice {
 		if !Uint8In(v, value) {
@@ -161,9 +125,6 @@ func Uint8Unique(slice []uint8) (value []uint8) {
 }
 
 // StringUnique 函数用于移除数组中重复的值
-// @param slice []String 规定数组
-// @return value []String 唯一数组
-// @date 2021-03-15 03:46:38
 func StringUnique(slice []string) (value []string) {
 	for _, v := range slice {
 		if !StringIn(v, value) {

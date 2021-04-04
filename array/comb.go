@@ -3,10 +3,6 @@ package array
 //go:generate genny -in=$GOFILE -out=gen-$GOFILE gen "T=NUMBERS,string"
 
 // TComb 求数组[]T无序组合
-// @param arr []T 规定的数组
-// @param num int 组合长度
-// @return  result [][]T 组合后的数组
-// @date 2021-03-15 03:59:34
 func TComb(arr []T, num int) (result [][]T) {
 	var arrLen = len(arr)
 

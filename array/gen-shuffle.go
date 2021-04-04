@@ -7,9 +7,6 @@ package array
 import "math/rand"
 
 // Float32Shuffle 打乱数组顺序
-// @param slice []Float32 要打乱数组
-// @return []Float32 todo 打乱后的数组
-// @date 2021-03-15 03:52:19
 func Float32Shuffle(slice []float32) []float32 {
 	for i := 0; i < len(slice); i++ {
 		a := rand.Intn(len(slice))
@@ -20,9 +17,6 @@ func Float32Shuffle(slice []float32) []float32 {
 }
 
 // Float64Shuffle 打乱数组顺序
-// @param slice []Float64 要打乱数组
-// @return []Float64 todo 打乱后的数组
-// @date 2021-03-15 03:52:19
 func Float64Shuffle(slice []float64) []float64 {
 	for i := 0; i < len(slice); i++ {
 		a := rand.Intn(len(slice))
@@ -33,9 +27,6 @@ func Float64Shuffle(slice []float64) []float64 {
 }
 
 // IntShuffle 打乱数组顺序
-// @param slice []Int 要打乱数组
-// @return []Int todo 打乱后的数组
-// @date 2021-03-15 03:52:19
 func IntShuffle(slice []int) []int {
 	for i := 0; i < len(slice); i++ {
 		a := rand.Intn(len(slice))
@@ -46,9 +37,6 @@ func IntShuffle(slice []int) []int {
 }
 
 // Int16Shuffle 打乱数组顺序
-// @param slice []Int16 要打乱数组
-// @return []Int16 todo 打乱后的数组
-// @date 2021-03-15 03:52:19
 func Int16Shuffle(slice []int16) []int16 {
 	for i := 0; i < len(slice); i++ {
 		a := rand.Intn(len(slice))
@@ -59,9 +47,6 @@ func Int16Shuffle(slice []int16) []int16 {
 }
 
 // Int32Shuffle 打乱数组顺序
-// @param slice []Int32 要打乱数组
-// @return []Int32 todo 打乱后的数组
-// @date 2021-03-15 03:52:19
 func Int32Shuffle(slice []int32) []int32 {
 	for i := 0; i < len(slice); i++ {
 		a := rand.Intn(len(slice))
@@ -72,9 +57,6 @@ func Int32Shuffle(slice []int32) []int32 {
 }
 
 // Int64Shuffle 打乱数组顺序
-// @param slice []Int64 要打乱数组
-// @return []Int64 todo 打乱后的数组
-// @date 2021-03-15 03:52:19
 func Int64Shuffle(slice []int64) []int64 {
 	for i := 0; i < len(slice); i++ {
 		a := rand.Intn(len(slice))
@@ -85,9 +67,6 @@ func Int64Shuffle(slice []int64) []int64 {
 }
 
 // Int8Shuffle 打乱数组顺序
-// @param slice []Int8 要打乱数组
-// @return []Int8 todo 打乱后的数组
-// @date 2021-03-15 03:52:19
 func Int8Shuffle(slice []int8) []int8 {
 	for i := 0; i < len(slice); i++ {
 		a := rand.Intn(len(slice))
@@ -98,9 +77,6 @@ func Int8Shuffle(slice []int8) []int8 {
 }
 
 // UintShuffle 打乱数组顺序
-// @param slice []Uint 要打乱数组
-// @return []Uint todo 打乱后的数组
-// @date 2021-03-15 03:52:19
 func UintShuffle(slice []uint) []uint {
 	for i := 0; i < len(slice); i++ {
 		a := rand.Intn(len(slice))
@@ -111,9 +87,6 @@ func UintShuffle(slice []uint) []uint {
 }
 
 // Uint16Shuffle 打乱数组顺序
-// @param slice []Uint16 要打乱数组
-// @return []Uint16 todo 打乱后的数组
-// @date 2021-03-15 03:52:19
 func Uint16Shuffle(slice []uint16) []uint16 {
 	for i := 0; i < len(slice); i++ {
 		a := rand.Intn(len(slice))
@@ -124,9 +97,6 @@ func Uint16Shuffle(slice []uint16) []uint16 {
 }
 
 // Uint32Shuffle 打乱数组顺序
-// @param slice []Uint32 要打乱数组
-// @return []Uint32 todo 打乱后的数组
-// @date 2021-03-15 03:52:19
 func Uint32Shuffle(slice []uint32) []uint32 {
 	for i := 0; i < len(slice); i++ {
 		a := rand.Intn(len(slice))
@@ -137,9 +107,6 @@ func Uint32Shuffle(slice []uint32) []uint32 {
 }
 
 // Uint64Shuffle 打乱数组顺序
-// @param slice []Uint64 要打乱数组
-// @return []Uint64 todo 打乱后的数组
-// @date 2021-03-15 03:52:19
 func Uint64Shuffle(slice []uint64) []uint64 {
 	for i := 0; i < len(slice); i++ {
 		a := rand.Intn(len(slice))
@@ -150,9 +117,6 @@ func Uint64Shuffle(slice []uint64) []uint64 {
 }
 
 // Uint8Shuffle 打乱数组顺序
-// @param slice []Uint8 要打乱数组
-// @return []Uint8 todo 打乱后的数组
-// @date 2021-03-15 03:52:19
 func Uint8Shuffle(slice []uint8) []uint8 {
 	for i := 0; i < len(slice); i++ {
 		a := rand.Intn(len(slice))
@@ -163,9 +127,6 @@ func Uint8Shuffle(slice []uint8) []uint8 {
 }
 
 // StringShuffle 打乱数组顺序
-// @param slice []String 要打乱数组
-// @return []String todo 打乱后的数组
-// @date 2021-03-15 03:52:19
 func StringShuffle(slice []string) []string {
 	for i := 0; i < len(slice); i++ {
 		a := rand.Intn(len(slice))

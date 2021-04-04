@@ -5,10 +5,6 @@
 package array
 
 // Float32Chunk 数组分割为新的数组块
-// @param slice []Float32 规定要使用的数组
-// @param size int 规定每个新数组块包含多少个元素
-// @return v [][]Float32 分割的数组
-// @date 2021-03-15 03:49:44
 func Float32Chunk(items []float32, size int) (chunks [][]float32) {
 
 	for size < len(items) {
@@ -20,10 +16,6 @@ func Float32Chunk(items []float32, size int) (chunks [][]float32) {
 }
 
 // Float64Chunk 数组分割为新的数组块
-// @param slice []Float64 规定要使用的数组
-// @param size int 规定每个新数组块包含多少个元素
-// @return v [][]Float64 分割的数组
-// @date 2021-03-15 03:49:44
 func Float64Chunk(items []float64, size int) (chunks [][]float64) {
 
 	for size < len(items) {
@@ -35,10 +27,6 @@ func Float64Chunk(items []float64, size int) (chunks [][]float64) {
 }
 
 // IntChunk 数组分割为新的数组块
-// @param slice []Int 规定要使用的数组
-// @param size int 规定每个新数组块包含多少个元素
-// @return v [][]Int 分割的数组
-// @date 2021-03-15 03:49:44
 func IntChunk(items []int, size int) (chunks [][]int) {
 
 	for size < len(items) {
@@ -50,10 +38,6 @@ func IntChunk(items []int, size int) (chunks [][]int) {
 }
 
 // Int16Chunk 数组分割为新的数组块
-// @param slice []Int16 规定要使用的数组
-// @param size int 规定每个新数组块包含多少个元素
-// @return v [][]Int16 分割的数组
-// @date 2021-03-15 03:49:44
 func Int16Chunk(items []int16, size int) (chunks [][]int16) {
 
 	for size < len(items) {
@@ -65,10 +49,6 @@ func Int16Chunk(items []int16, size int) (chunks [][]int16) {
 }
 
 // Int32Chunk 数组分割为新的数组块
-// @param slice []Int32 规定要使用的数组
-// @param size int 规定每个新数组块包含多少个元素
-// @return v [][]Int32 分割的数组
-// @date 2021-03-15 03:49:44
 func Int32Chunk(items []int32, size int) (chunks [][]int32) {
 
 	for size < len(items) {
@@ -80,10 +60,6 @@ func Int32Chunk(items []int32, size int) (chunks [][]int32) {
 }
 
 // Int64Chunk 数组分割为新的数组块
-// @param slice []Int64 规定要使用的数组
-// @param size int 规定每个新数组块包含多少个元素
-// @return v [][]Int64 分割的数组
-// @date 2021-03-15 03:49:44
 func Int64Chunk(items []int64, size int) (chunks [][]int64) {
 
 	for size < len(items) {
@@ -95,10 +71,6 @@ func Int64Chunk(items []int64, size int) (chunks [][]int64) {
 }
 
 // Int8Chunk 数组分割为新的数组块
-// @param slice []Int8 规定要使用的数组
-// @param size int 规定每个新数组块包含多少个元素
-// @return v [][]Int8 分割的数组
-// @date 2021-03-15 03:49:44
 func Int8Chunk(items []int8, size int) (chunks [][]int8) {
 
 	for size < len(items) {
@@ -110,10 +82,6 @@ func Int8Chunk(items []int8, size int) (chunks [][]int8) {
 }
 
 // UintChunk 数组分割为新的数组块
-// @param slice []Uint 规定要使用的数组
-// @param size int 规定每个新数组块包含多少个元素
-// @return v [][]Uint 分割的数组
-// @date 2021-03-15 03:49:44
 func UintChunk(items []uint, size int) (chunks [][]uint) {
 
 	for size < len(items) {
@@ -125,10 +93,6 @@ func UintChunk(items []uint, size int) (chunks [][]uint) {
 }
 
 // Uint16Chunk 数组分割为新的数组块
-// @param slice []Uint16 规定要使用的数组
-// @param size int 规定每个新数组块包含多少个元素
-// @return v [][]Uint16 分割的数组
-// @date 2021-03-15 03:49:44
 func Uint16Chunk(items []uint16, size int) (chunks [][]uint16) {
 
 	for size < len(items) {
@@ -140,10 +104,6 @@ func Uint16Chunk(items []uint16, size int) (chunks [][]uint16) {
 }
 
 // Uint32Chunk 数组分割为新的数组块
-// @param slice []Uint32 规定要使用的数组
-// @param size int 规定每个新数组块包含多少个元素
-// @return v [][]Uint32 分割的数组
-// @date 2021-03-15 03:49:44
 func Uint32Chunk(items []uint32, size int) (chunks [][]uint32) {
 
 	for size < len(items) {
@@ -155,10 +115,6 @@ func Uint32Chunk(items []uint32, size int) (chunks [][]uint32) {
 }
 
 // Uint64Chunk 数组分割为新的数组块
-// @param slice []Uint64 规定要使用的数组
-// @param size int 规定每个新数组块包含多少个元素
-// @return v [][]Uint64 分割的数组
-// @date 2021-03-15 03:49:44
 func Uint64Chunk(items []uint64, size int) (chunks [][]uint64) {
 
 	for size < len(items) {
@@ -170,10 +126,6 @@ func Uint64Chunk(items []uint64, size int) (chunks [][]uint64) {
 }
 
 // Uint8Chunk 数组分割为新的数组块
-// @param slice []Uint8 规定要使用的数组
-// @param size int 规定每个新数组块包含多少个元素
-// @return v [][]Uint8 分割的数组
-// @date 2021-03-15 03:49:44
 func Uint8Chunk(items []uint8, size int) (chunks [][]uint8) {
 
 	for size < len(items) {
@@ -185,10 +137,6 @@ func Uint8Chunk(items []uint8, size int) (chunks [][]uint8) {
 }
 
 // StringChunk 数组分割为新的数组块
-// @param slice []String 规定要使用的数组
-// @param size int 规定每个新数组块包含多少个元素
-// @return v [][]String 分割的数组
-// @date 2021-03-15 03:49:44
 func StringChunk(items []string, size int) (chunks [][]string) {
 
 	for size < len(items) {

@@ -5,10 +5,6 @@
 package array
 
 // Float32Intersect 比较两个数组的值，并返回交集
-// @param slice1 []Float32 与其他数组进行比较的第一个数组
-// @param slice2 []Float32 与第一个数组进行比较的数组
-// @return value []Float32 与第一个数组进行比较的数组
-// @date 2021-03-15 03:42:20
 func Float32Intersect(slice1 []float32, slice2 []float32) (value []float32) {
 	for _, v := range slice1 {
 		if Float32In(v, slice2) {
@@ -19,10 +15,6 @@ func Float32Intersect(slice1 []float32, slice2 []float32) (value []float32) {
 }
 
 // Float64Intersect 比较两个数组的值，并返回交集
-// @param slice1 []Float64 与其他数组进行比较的第一个数组
-// @param slice2 []Float64 与第一个数组进行比较的数组
-// @return value []Float64 与第一个数组进行比较的数组
-// @date 2021-03-15 03:42:20
 func Float64Intersect(slice1 []float64, slice2 []float64) (value []float64) {
 	for _, v := range slice1 {
 		if Float64In(v, slice2) {
@@ -33,10 +25,6 @@ func Float64Intersect(slice1 []float64, slice2 []float64) (value []float64) {
 }
 
 // IntIntersect 比较两个数组的值，并返回交集
-// @param slice1 []Int 与其他数组进行比较的第一个数组
-// @param slice2 []Int 与第一个数组进行比较的数组
-// @return value []Int 与第一个数组进行比较的数组
-// @date 2021-03-15 03:42:20
 func IntIntersect(slice1 []int, slice2 []int) (value []int) {
 	for _, v := range slice1 {
 		if IntIn(v, slice2) {
@@ -47,10 +35,6 @@ func IntIntersect(slice1 []int, slice2 []int) (value []int) {
 }
 
 // Int16Intersect 比较两个数组的值，并返回交集
-// @param slice1 []Int16 与其他数组进行比较的第一个数组
-// @param slice2 []Int16 与第一个数组进行比较的数组
-// @return value []Int16 与第一个数组进行比较的数组
-// @date 2021-03-15 03:42:20
 func Int16Intersect(slice1 []int16, slice2 []int16) (value []int16) {
 	for _, v := range slice1 {
 		if Int16In(v, slice2) {
@@ -61,10 +45,6 @@ func Int16Intersect(slice1 []int16, slice2 []int16) (value []int16) {
 }
 
 // Int32Intersect 比较两个数组的值，并返回交集
-// @param slice1 []Int32 与其他数组进行比较的第一个数组
-// @param slice2 []Int32 与第一个数组进行比较的数组
-// @return value []Int32 与第一个数组进行比较的数组
-// @date 2021-03-15 03:42:20
 func Int32Intersect(slice1 []int32, slice2 []int32) (value []int32) {
 	for _, v := range slice1 {
 		if Int32In(v, slice2) {
@@ -75,10 +55,6 @@ func Int32Intersect(slice1 []int32, slice2 []int32) (value []int32) {
 }
 
 // Int64Intersect 比较两个数组的值，并返回交集
-// @param slice1 []Int64 与其他数组进行比较的第一个数组
-// @param slice2 []Int64 与第一个数组进行比较的数组
-// @return value []Int64 与第一个数组进行比较的数组
-// @date 2021-03-15 03:42:20
 func Int64Intersect(slice1 []int64, slice2 []int64) (value []int64) {
 	for _, v := range slice1 {
 		if Int64In(v, slice2) {
@@ -89,10 +65,6 @@ func Int64Intersect(slice1 []int64, slice2 []int64) (value []int64) {
 }
 
 // Int8Intersect 比较两个数组的值，并返回交集
-// @param slice1 []Int8 与其他数组进行比较的第一个数组
-// @param slice2 []Int8 与第一个数组进行比较的数组
-// @return value []Int8 与第一个数组进行比较的数组
-// @date 2021-03-15 03:42:20
 func Int8Intersect(slice1 []int8, slice2 []int8) (value []int8) {
 	for _, v := range slice1 {
 		if Int8In(v, slice2) {
@@ -103,10 +75,6 @@ func Int8Intersect(slice1 []int8, slice2 []int8) (value []int8) {
 }
 
 // UintIntersect 比较两个数组的值，并返回交集
-// @param slice1 []Uint 与其他数组进行比较的第一个数组
-// @param slice2 []Uint 与第一个数组进行比较的数组
-// @return value []Uint 与第一个数组进行比较的数组
-// @date 2021-03-15 03:42:20
 func UintIntersect(slice1 []uint, slice2 []uint) (value []uint) {
 	for _, v := range slice1 {
 		if UintIn(v, slice2) {
@@ -117,10 +85,6 @@ func UintIntersect(slice1 []uint, slice2 []uint) (value []uint) {
 }
 
 // Uint16Intersect 比较两个数组的值，并返回交集
-// @param slice1 []Uint16 与其他数组进行比较的第一个数组
-// @param slice2 []Uint16 与第一个数组进行比较的数组
-// @return value []Uint16 与第一个数组进行比较的数组
-// @date 2021-03-15 03:42:20
 func Uint16Intersect(slice1 []uint16, slice2 []uint16) (value []uint16) {
 	for _, v := range slice1 {
 		if Uint16In(v, slice2) {
@@ -131,10 +95,6 @@ func Uint16Intersect(slice1 []uint16, slice2 []uint16) (value []uint16) {
 }
 
 // Uint32Intersect 比较两个数组的值，并返回交集
-// @param slice1 []Uint32 与其他数组进行比较的第一个数组
-// @param slice2 []Uint32 与第一个数组进行比较的数组
-// @return value []Uint32 与第一个数组进行比较的数组
-// @date 2021-03-15 03:42:20
 func Uint32Intersect(slice1 []uint32, slice2 []uint32) (value []uint32) {
 	for _, v := range slice1 {
 		if Uint32In(v, slice2) {
@@ -145,10 +105,6 @@ func Uint32Intersect(slice1 []uint32, slice2 []uint32) (value []uint32) {
 }
 
 // Uint64Intersect 比较两个数组的值，并返回交集
-// @param slice1 []Uint64 与其他数组进行比较的第一个数组
-// @param slice2 []Uint64 与第一个数组进行比较的数组
-// @return value []Uint64 与第一个数组进行比较的数组
-// @date 2021-03-15 03:42:20
 func Uint64Intersect(slice1 []uint64, slice2 []uint64) (value []uint64) {
 	for _, v := range slice1 {
 		if Uint64In(v, slice2) {
@@ -159,10 +115,6 @@ func Uint64Intersect(slice1 []uint64, slice2 []uint64) (value []uint64) {
 }
 
 // Uint8Intersect 比较两个数组的值，并返回交集
-// @param slice1 []Uint8 与其他数组进行比较的第一个数组
-// @param slice2 []Uint8 与第一个数组进行比较的数组
-// @return value []Uint8 与第一个数组进行比较的数组
-// @date 2021-03-15 03:42:20
 func Uint8Intersect(slice1 []uint8, slice2 []uint8) (value []uint8) {
 	for _, v := range slice1 {
 		if Uint8In(v, slice2) {
@@ -173,10 +125,6 @@ func Uint8Intersect(slice1 []uint8, slice2 []uint8) (value []uint8) {
 }
 
 // StringIntersect 比较两个数组的值，并返回交集
-// @param slice1 []String 与其他数组进行比较的第一个数组
-// @param slice2 []String 与第一个数组进行比较的数组
-// @return value []String 与第一个数组进行比较的数组
-// @date 2021-03-15 03:42:20
 func StringIntersect(slice1 []string, slice2 []string) (value []string) {
 	for _, v := range slice1 {
 		if StringIn(v, slice2) {

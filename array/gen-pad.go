@@ -5,11 +5,6 @@
 package array
 
 // Float32Pad 将指定数量的带有指定值的元素插入到数组中。
-// @param slice []Float32 规定数组
-// @param size int 规定从函数返回的数组元素个数
-// @param val float32 规定从函数返回的数组中新元素的值
-// @return []Float32 返回后的数组
-// @date 2021-03-15 03:54:47
 func Float32Pad(slice []float32, size int, val float32) []float32 {
 	if size <= len(slice) {
 		return slice
@@ -21,11 +16,6 @@ func Float32Pad(slice []float32, size int, val float32) []float32 {
 }
 
 // Float64Pad 将指定数量的带有指定值的元素插入到数组中。
-// @param slice []Float64 规定数组
-// @param size int 规定从函数返回的数组元素个数
-// @param val float64 规定从函数返回的数组中新元素的值
-// @return []Float64 返回后的数组
-// @date 2021-03-15 03:54:47
 func Float64Pad(slice []float64, size int, val float64) []float64 {
 	if size <= len(slice) {
 		return slice
@@ -37,11 +27,6 @@ func Float64Pad(slice []float64, size int, val float64) []float64 {
 }
 
 // IntPad 将指定数量的带有指定值的元素插入到数组中。
-// @param slice []Int 规定数组
-// @param size int 规定从函数返回的数组元素个数
-// @param val int 规定从函数返回的数组中新元素的值
-// @return []Int 返回后的数组
-// @date 2021-03-15 03:54:47
 func IntPad(slice []int, size int, val int) []int {
 	if size <= len(slice) {
 		return slice
@@ -53,11 +38,6 @@ func IntPad(slice []int, size int, val int) []int {
 }
 
 // Int16Pad 将指定数量的带有指定值的元素插入到数组中。
-// @param slice []Int16 规定数组
-// @param size int 规定从函数返回的数组元素个数
-// @param val int16 规定从函数返回的数组中新元素的值
-// @return []Int16 返回后的数组
-// @date 2021-03-15 03:54:47
 func Int16Pad(slice []int16, size int, val int16) []int16 {
 	if size <= len(slice) {
 		return slice
@@ -69,11 +49,6 @@ func Int16Pad(slice []int16, size int, val int16) []int16 {
 }
 
 // Int32Pad 将指定数量的带有指定值的元素插入到数组中。
-// @param slice []Int32 规定数组
-// @param size int 规定从函数返回的数组元素个数
-// @param val int32 规定从函数返回的数组中新元素的值
-// @return []Int32 返回后的数组
-// @date 2021-03-15 03:54:47
 func Int32Pad(slice []int32, size int, val int32) []int32 {
 	if size <= len(slice) {
 		return slice
@@ -85,11 +60,6 @@ func Int32Pad(slice []int32, size int, val int32) []int32 {
 }
 
 // Int64Pad 将指定数量的带有指定值的元素插入到数组中。
-// @param slice []Int64 规定数组
-// @param size int 规定从函数返回的数组元素个数
-// @param val int64 规定从函数返回的数组中新元素的值
-// @return []Int64 返回后的数组
-// @date 2021-03-15 03:54:47
 func Int64Pad(slice []int64, size int, val int64) []int64 {
 	if size <= len(slice) {
 		return slice
@@ -101,11 +71,6 @@ func Int64Pad(slice []int64, size int, val int64) []int64 {
 }
 
 // Int8Pad 将指定数量的带有指定值的元素插入到数组中。
-// @param slice []Int8 规定数组
-// @param size int 规定从函数返回的数组元素个数
-// @param val int8 规定从函数返回的数组中新元素的值
-// @return []Int8 返回后的数组
-// @date 2021-03-15 03:54:47
 func Int8Pad(slice []int8, size int, val int8) []int8 {
 	if size <= len(slice) {
 		return slice
@@ -117,11 +82,6 @@ func Int8Pad(slice []int8, size int, val int8) []int8 {
 }
 
 // UintPad 将指定数量的带有指定值的元素插入到数组中。
-// @param slice []Uint 规定数组
-// @param size int 规定从函数返回的数组元素个数
-// @param val uint 规定从函数返回的数组中新元素的值
-// @return []Uint 返回后的数组
-// @date 2021-03-15 03:54:47
 func UintPad(slice []uint, size int, val uint) []uint {
 	if size <= len(slice) {
 		return slice
@@ -133,11 +93,6 @@ func UintPad(slice []uint, size int, val uint) []uint {
 }
 
 // Uint16Pad 将指定数量的带有指定值的元素插入到数组中。
-// @param slice []Uint16 规定数组
-// @param size int 规定从函数返回的数组元素个数
-// @param val uint16 规定从函数返回的数组中新元素的值
-// @return []Uint16 返回后的数组
-// @date 2021-03-15 03:54:47
 func Uint16Pad(slice []uint16, size int, val uint16) []uint16 {
 	if size <= len(slice) {
 		return slice
@@ -149,11 +104,6 @@ func Uint16Pad(slice []uint16, size int, val uint16) []uint16 {
 }
 
 // Uint32Pad 将指定数量的带有指定值的元素插入到数组中。
-// @param slice []Uint32 规定数组
-// @param size int 规定从函数返回的数组元素个数
-// @param val uint32 规定从函数返回的数组中新元素的值
-// @return []Uint32 返回后的数组
-// @date 2021-03-15 03:54:47
 func Uint32Pad(slice []uint32, size int, val uint32) []uint32 {
 	if size <= len(slice) {
 		return slice
@@ -165,11 +115,6 @@ func Uint32Pad(slice []uint32, size int, val uint32) []uint32 {
 }
 
 // Uint64Pad 将指定数量的带有指定值的元素插入到数组中。
-// @param slice []Uint64 规定数组
-// @param size int 规定从函数返回的数组元素个数
-// @param val uint64 规定从函数返回的数组中新元素的值
-// @return []Uint64 返回后的数组
-// @date 2021-03-15 03:54:47
 func Uint64Pad(slice []uint64, size int, val uint64) []uint64 {
 	if size <= len(slice) {
 		return slice
@@ -181,11 +126,6 @@ func Uint64Pad(slice []uint64, size int, val uint64) []uint64 {
 }
 
 // Uint8Pad 将指定数量的带有指定值的元素插入到数组中。
-// @param slice []Uint8 规定数组
-// @param size int 规定从函数返回的数组元素个数
-// @param val uint8 规定从函数返回的数组中新元素的值
-// @return []Uint8 返回后的数组
-// @date 2021-03-15 03:54:47
 func Uint8Pad(slice []uint8, size int, val uint8) []uint8 {
 	if size <= len(slice) {
 		return slice
@@ -197,11 +137,6 @@ func Uint8Pad(slice []uint8, size int, val uint8) []uint8 {
 }
 
 // StringPad 将指定数量的带有指定值的元素插入到数组中。
-// @param slice []String 规定数组
-// @param size int 规定从函数返回的数组元素个数
-// @param val string 规定从函数返回的数组中新元素的值
-// @return []String 返回后的数组
-// @date 2021-03-15 03:54:47
 func StringPad(slice []string, size int, val string) []string {
 	if size <= len(slice) {
 		return slice

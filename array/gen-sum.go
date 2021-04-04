@@ -5,9 +5,6 @@
 package array
 
 // TSum T数组求和
-// @param arr []T 数组
-// @return  v T 和值
-// @date 2021-03-15 03:24:25
 func Float32Sum(arr []float32) (v float32) {
 	for _, i := range arr {
 		v += i
@@ -16,9 +13,6 @@ func Float32Sum(arr []float32) (v float32) {
 }
 
 // TSum T数组求和
-// @param arr []T 数组
-// @return  v T 和值
-// @date 2021-03-15 03:24:25
 func Float64Sum(arr []float64) (v float64) {
 	for _, i := range arr {
 		v += i
@@ -27,9 +21,6 @@ func Float64Sum(arr []float64) (v float64) {
 }
 
 // TSum T数组求和
-// @param arr []T 数组
-// @return  v T 和值
-// @date 2021-03-15 03:24:25
 func IntSum(arr []int) (v int) {
 	for _, i := range arr {
 		v += i
@@ -38,9 +29,6 @@ func IntSum(arr []int) (v int) {
 }
 
 // TSum T数组求和
-// @param arr []T 数组
-// @return  v T 和值
-// @date 2021-03-15 03:24:25
 func Int16Sum(arr []int16) (v int16) {
 	for _, i := range arr {
 		v += i
@@ -49,9 +37,6 @@ func Int16Sum(arr []int16) (v int16) {
 }
 
 // TSum T数组求和
-// @param arr []T 数组
-// @return  v T 和值
-// @date 2021-03-15 03:24:25
 func Int32Sum(arr []int32) (v int32) {
 	for _, i := range arr {
 		v += i
@@ -60,9 +45,6 @@ func Int32Sum(arr []int32) (v int32) {
 }
 
 // TSum T数组求和
-// @param arr []T 数组
-// @return  v T 和值
-// @date 2021-03-15 03:24:25
 func Int64Sum(arr []int64) (v int64) {
 	for _, i := range arr {
 		v += i
@@ -71,9 +53,6 @@ func Int64Sum(arr []int64) (v int64) {
 }
 
 // TSum T数组求和
-// @param arr []T 数组
-// @return  v T 和值
-// @date 2021-03-15 03:24:25
 func Int8Sum(arr []int8) (v int8) {
 	for _, i := range arr {
 		v += i
@@ -82,9 +61,6 @@ func Int8Sum(arr []int8) (v int8) {
 }
 
 // TSum T数组求和
-// @param arr []T 数组
-// @return  v T 和值
-// @date 2021-03-15 03:24:25
 func UintSum(arr []uint) (v uint) {
 	for _, i := range arr {
 		v += i
@@ -93,9 +69,6 @@ func UintSum(arr []uint) (v uint) {
 }
 
 // TSum T数组求和
-// @param arr []T 数组
-// @return  v T 和值
-// @date 2021-03-15 03:24:25
 func Uint16Sum(arr []uint16) (v uint16) {
 	for _, i := range arr {
 		v += i
@@ -104,9 +77,6 @@ func Uint16Sum(arr []uint16) (v uint16) {
 }
 
 // TSum T数组求和
-// @param arr []T 数组
-// @return  v T 和值
-// @date 2021-03-15 03:24:25
 func Uint32Sum(arr []uint32) (v uint32) {
 	for _, i := range arr {
 		v += i
@@ -115,9 +85,6 @@ func Uint32Sum(arr []uint32) (v uint32) {
 }
 
 // TSum T数组求和
-// @param arr []T 数组
-// @return  v T 和值
-// @date 2021-03-15 03:24:25
 func Uint64Sum(arr []uint64) (v uint64) {
 	for _, i := range arr {
 		v += i
@@ -126,9 +93,6 @@ func Uint64Sum(arr []uint64) (v uint64) {
 }
 
 // TSum T数组求和
-// @param arr []T 数组
-// @return  v T 和值
-// @date 2021-03-15 03:24:25
 func Uint8Sum(arr []uint8) (v uint8) {
 	for _, i := range arr {
 		v += i
